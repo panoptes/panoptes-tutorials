@@ -2,13 +2,20 @@ name: panoptes-tutorials
 
 channels:
   - astropy
+  - conda-forge
 
 dependencies:
   - pip
   - python>=3.7
+  - jupyterlab
+  - ipywidgets
+  - altair
   - numpy
   - matplotlib
   - pandas
+  - dask
+  - scikit-image
+  - scikit-learn
   - seaborn
   - pymongo
   - pip:
