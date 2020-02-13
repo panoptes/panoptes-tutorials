@@ -5,13 +5,15 @@ channels:
 
 
 dependencies:
+  - pip
   - python>=3.7
   - numpy
   - matplotlib
   - pandas
   - seaborn
-  - ctypes
+  - pymongo
   - pip:
     - astroplan
-    -e git+git://github.com/panoptes/POCS@develop#egg=pocs
-    -e git+git://github.com/panoptes/panoptes-utils@develop#egg=panoptes-utils
+    - panoptes-utils
+    - -e git+git://github.com/panoptes/POCS@develop#egg=pocs
+    
