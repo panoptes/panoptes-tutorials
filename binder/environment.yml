@@ -1,0 +1,16 @@
+name: panoptes-tutorials
+
+channels:
+
+  - astropy
+
+
+dependencies:
+  - python>=3.5
+  - numpy
+  - matplotlib
+  - pandas
+  - seaborn
+  - astroplan
+  -e git+git://github.com/panoptes/POCS@develop#egg=pocs
+  -e git+git://github.com/panoptes/panoptes-utils@develop#egg=panoptes-utils
