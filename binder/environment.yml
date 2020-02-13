@@ -3,7 +3,6 @@ name: panoptes-tutorials
 channels:
   - astropy
 
-
 dependencies:
   - pip
   - python>=3.7
@@ -14,6 +13,7 @@ dependencies:
   - pymongo
   - pip:
     - astroplan
+    - jupyter-offlinenotebook
     - panoptes-utils
     - -e git+git://github.com/panoptes/POCS@develop#egg=pocs
     
