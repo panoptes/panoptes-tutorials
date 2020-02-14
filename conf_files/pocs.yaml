@@ -25,13 +25,13 @@ location:
     timezone: US/Hawaii
     gmt_offset: -600 # Offset in minutes from GMT during.
                      # standard time (not daylight saving).
-directories:
-    base: /var/panoptes
-    images: images
-    data: data
-    resources: POCS/resources/
-    targets: POCS/resources/targets
-    mounts: POCS/resources/mounts
+#directories:
+#    base: /var/panoptes
+#    images: images
+#    data: data
+#    resources: POCS/resources/
+#    targets: POCS/resources/targets
+#    mounts: POCS/resources/mounts
 db:
     name: panoptes
     type: file
