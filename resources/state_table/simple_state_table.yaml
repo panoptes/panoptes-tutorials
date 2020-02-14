@@ -104,4 +104,3 @@ transitions:
         dest: tracking
         trigger: adjust_tracking
         conditions: mount_is_tracking
-
