@@ -2,16 +2,25 @@ name: panoptes-tutorials
 
 channels:
   - astropy
-
+  - conda-forge
 
 dependencies:
+  - pip
   - python>=3.7
+  - jupyterlab
+  - ipywidgets
+  - altair
   - numpy
   - matplotlib
   - pandas
+  - dask
+  - scikit-image
+  - scikit-learn
   - seaborn
-  - ctypes
+  - pymongo
   - pip:
     - astroplan
-    -e git+git://github.com/panoptes/POCS@develop#egg=pocs
-    -e git+git://github.com/panoptes/panoptes-utils@develop#egg=panoptes-utils
+    - jupyter-offlinenotebook
+    - panoptes-utils
+    - -e git+git://github.com/panoptes/POCS@develop#egg=pocs
+    
