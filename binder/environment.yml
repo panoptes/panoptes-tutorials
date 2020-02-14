@@ -23,4 +23,3 @@ dependencies:
     - jupyter-offlinenotebook
     - panoptes-utils
     - -e git+git://github.com/panoptes/POCS@docker#egg=pocs
-    
