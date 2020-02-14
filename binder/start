@@ -1,4 +1,4 @@
-PANDIR=/home/jovyan
-POCS=$PANDIR
-PANLOG=$PANDIR
-panoptes-config-server
+#PANDIR=/home/jovyan
+#POCS=$PANDIR
+#PANLOG=$PANDIR
+#panoptes-config-server
