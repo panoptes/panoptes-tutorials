@@ -22,5 +22,4 @@ dependencies:
     - astroplan
     - jupyter-offlinenotebook
     - panoptes-utils
-    - -e git+git://github.com/panoptes/POCS@develop#egg=pocs
-    
+    - -e git+git://github.com/panoptes/POCS@docker#egg=pocs
