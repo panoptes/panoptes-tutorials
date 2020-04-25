@@ -1,0 +1,12 @@
+-e git+git://github.com/panoptes/POCS@develop#egg=pocs
+astropy
+astropy-helpers
+astroplan
+google-cloud-storage
+google-cloud-firestore
+hvplot
+jupyter
+pandas
+panel
+panoptes-utils>=0.2.10
+seaborn
