@@ -4,6 +4,7 @@ astropy-helpers
 astroplan
 google-cloud-storage
 google-cloud-firestore
+holoviews
 hvplot
 jupyter
 pandas
