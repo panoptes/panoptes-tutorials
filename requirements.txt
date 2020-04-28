@@ -1,1 +1,1 @@
--e git+git://github.com/panoptes/POCS@develop#egg=pocs
+-e git+git://github.com/panoptes/POCS@docker#egg=pocs
