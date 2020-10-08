@@ -1,4 +1,4 @@
-FROM gcr.io/panoptes-exp/panoptes-utils:develop
+FROM gcr.io/panoptes-exp/panoptes-pocs:developer
 
 COPY . /var/panoptes/panoptes-tutorials
 
