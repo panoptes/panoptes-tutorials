@@ -7,7 +7,7 @@ ENV HOME "/home/${NB_USER}"
 
 COPY . ${HOME}
 RUN /var/panoptes/conda/bin/pip install --no-cache \
-     notebook==5.* \
+     notebook \
      jupyterlab \
      jupyter-panel-proxy && \
     cd "${HOME}" && \
