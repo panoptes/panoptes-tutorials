@@ -1,3 +1,5 @@
--e git+git://github.com/panoptes/POCS@docker#egg=pocs
+-e git+git://github.com/panoptes/POCS@develop#egg=panoptes-pocs
 ipywidgets
+jupyterlab
 jupyter-offlinenotebook
+jupyter-panel-proxy
